@@ -28,13 +28,13 @@
 
 #include "Tracking.h"
 #include "FrameDrawer.h"
-#include "MapDrawer.h"
+//#include "MapDrawer.h"
 #include "Map.h"
 #include "LocalMapping.h"
 #include "LoopClosing.h"
 #include "KeyFrameDatabase.h"
 #include "ORBVocabulary.h"
-#include "Viewer.h"
+//#include "Viewer.h"
 
 namespace ORB_SLAM2
 {
@@ -45,6 +45,7 @@ class Map;
 class Tracking;
 class LocalMapping;
 class LoopClosing;
+class MapDrawer;
 
 class System
 {

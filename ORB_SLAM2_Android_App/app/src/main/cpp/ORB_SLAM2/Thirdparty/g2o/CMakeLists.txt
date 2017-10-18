@@ -56,7 +56,7 @@ SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${g2o_CXX_FLAGS}")
 SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${g2o_C_FLAGS}")
 
 # Find Eigen3
-SET(G2O_EIGEN3_INCLUDE "../eigen3")
+SET(EIGEN3_INCLUDE_DIR "../eigen3")
 
 
 # Generate config.h
@@ -68,7 +68,7 @@ INCLUDE_DIRECTORIES(
 ${g2o_SOURCE_DIR}/core
 ${g2o_SOURCE_DIR}/types
 ${g2o_SOURCE_DIR}/stuff
-${G2O_EIGEN3_INCLUDE})
+${EIGEN3_INCLUDE_DIR})
 
 # Include the subdirectories
 ADD_LIBRARY(g2o ${G2O_LIB_TYPE}

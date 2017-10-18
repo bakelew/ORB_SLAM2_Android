@@ -15,6 +15,9 @@ android {
                 cppFlags "-std=c++11"
             }
         }
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
     }
     buildTypes {
         release {
